@@ -26,3 +26,81 @@ body{
 
 }
 
+
+.profile{
+  position: relative;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile .icon{
+font-size: 17px;
+color: #31344b;
+position: absolute;
+cursor: pointer;
+opacity: 0.7;
+top: 15px;
+height: 35px;
+width: 35px;
+text-align: center;
+line-height: 35px;
+border-radius: 50%;
+
+
+
+}
+
+
+.profile .icon i{
+  position: relative;
+  z-index: 9;
+}
+
+.profile .icon.arrow{
+  left: 15px;
+}
+.profile .icon.dots{
+  right: 15px;
+}
+
+.profile .img-area{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-area .inner-area{
+height: calc(100% - 25px);
+width: calc(100% - 25px);
+border-radius: 50%;
+
+
+}
+
+.inner-area img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile .name{
+  font-size: 23px;
+  font-weight: 500;
+  color: #31344b;
+  margin:  10px 0px 5px 0;
+}
+
+.profile .about{
+  color: #44476a;
+  font-weight: 400;
+  font-size: 16px;
+}

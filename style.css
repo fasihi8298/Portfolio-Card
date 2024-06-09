@@ -11,7 +11,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #ecf0f3;
+    background-image: url(./assets/pexels-pixabay-276514.jpg);
+    background-size: cover;
 }
 
 
@@ -20,9 +21,9 @@ body{
 .social-icons a,
 .buttons button{
 
-    background: #ecf0f3;
-    box-shadow: -3px -3px 7px #ffff,
-                 3px 3px 5px #ceced1
+    background: transparent;
+    box-shadow: -3px -3px 7px yellow,
+                 3px 3px 5px yellow
 
 }
 
@@ -40,7 +41,7 @@ body{
 
 .profile .icon{
 font-size: 17px;
-color: #31344b;
+color: #ffff;
 position: absolute;
 cursor: pointer;
 opacity: 0.7;
@@ -95,12 +96,12 @@ border-radius: 50%;
 .profile .name{
   font-size: 23px;
   font-weight: 500;
-  color: #31344b;
+  color: #ffff;
   margin:  10px 0px 5px 0;
 }
 
 .profile .about{
-  color: #44476a;
+  color: #ffff;
   font-weight: 400;
   font-size: 16px;
 }
@@ -109,6 +110,7 @@ border-radius: 50%;
 }
 
 .social-icons a{
+  background: #ffff;
   position: relative;
   height: 40px;
   width: 40px;
@@ -116,6 +118,10 @@ border-radius: 50%;
   display: inline-flex;
   text-decoration: none;
   border-radius: 50%;
+}
+.buttons button{
+  background: transparent;
+
 }
 
 .social-icons a:hover::before,
@@ -129,11 +135,7 @@ border-radius: 50%;
   bottom: 0;
   right: 0;
   border-radius: 50%;
-  background: #ecf0f3;
-
-
-  box-shadow: inset -3px -3px 7px #ffff,
-              inset 3px 3px 5px #ceced1
+  
 
 }
 
@@ -183,7 +185,7 @@ border-radius: 50%;
   border: none;
   outline: none;
   padding: 12px 0;
-  color: #31344b;
+  color: white;
   font-size: 15px;
   font-weight: 500;
   border-radius: 5px;

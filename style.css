@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-left: 40px;
     background-image: url(./assets/pexels-pixabay-276514.jpg);
     background-size: cover;
 }
@@ -22,8 +23,8 @@ body{
 .buttons button{
 
     background: transparent;
-    box-shadow: -3px -3px 7px yellow,
-                 3px 3px 5px yellow
+    box-shadow: -3px -3px 7px white,
+                 3px 3px 5px white
 
 }
 
@@ -110,7 +111,7 @@ border-radius: 50%;
 }
 
 .social-icons a{
-  background: #ffff;
+  background: transparent;
   position: relative;
   height: 40px;
   width: 40px;
